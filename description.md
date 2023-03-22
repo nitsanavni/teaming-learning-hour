@@ -63,12 +63,16 @@ Collect their answers as-is, no judgement, no corrections; Repeat answers out lo
 
 visuals?
 
--   ## Motivation
--   Mindset and Values - Kindness, Consideration, Respect
--   Strong-style
+-   Background, discovered, patterns
+-   Woody Zuill quote, book
+-   Motivation - why would we work this way?
+-   Mindset and Values - Kindness, Consideration, Respect, help each other
+-   Strong-style, typing, talking
+-
 -   Strict style
 -   Yes and...
 -   Rotations and Timer
+
 
 ## Concrete - Call-outs
 
