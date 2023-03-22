@@ -1,0 +1,2 @@
+-   choose a kata
+-   use visuals
