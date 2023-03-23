@@ -63,7 +63,7 @@ Collect their answers as-is, no judgement, no corrections; Repeat answers out lo
 
 visuals?
 
--   ## Motivation
+-   Motivation
 -   Mindset and Values - Kindness, Consideration, Respect
 -   Strong-style
 -   Strict style
