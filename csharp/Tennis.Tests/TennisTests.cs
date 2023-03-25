@@ -77,16 +77,25 @@ namespace Tennis.Tests
 
         private void CheckAllScores(ITennisGame game, int player1Score, int player2Score, string expectedScore)
         {
+            Repeat(times: player1Score, action: () => game.WonPoint("player1"));
             var highestScore = Math.Max(player1Score, player2Score);
             for (var i = 0; i < highestScore; i++)
             {
-                if (i < player1Score)
-                    game.WonPoint("player1");
-                if (i < player2Score)
-                    game.WonPoint("player2");
+                // if (i < player1Score)
+                //     game.WonPoint("player1");
+                // if (i < player2Score)
+                //     game.WonPoint("player2");
             }
 
             Assert.Equal(expectedScore, game.GetScore());
+        }
+
+        private void Repeat(int times, Action action)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                action();
+            }
         }
     }
 }
