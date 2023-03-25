@@ -1,14 +1,15 @@
-image: gitpod/workspace-dotnet:latest
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
-    - name: csharp
-      init: |
-          cd csharp
-          dotnet dev-certs https
-          dotnet restore
-          dotnet build
-          dotnet test
+  - name: Restore & Build
+    init: |
+      dotnet dev-certs https 
+      dotnet restore
+      dotnet build
+  - name: Run
+    command: dotnet run
 
 vscode:
-    extensions:
-        - muhammad-sammy.csharp
+  extensions:
+    - muhammad-sammy.csharp
