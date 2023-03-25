@@ -1,0 +1,15 @@
+image:
+    file: .gitpod.Dockerfile
+
+tasks:
+    - name: csharp
+      init: |
+          cd csharp
+          dotnet dev-certs https
+          dotnet restore
+          dotnet build
+          dotnet test
+
+vscode:
+    extensions:
+        - muhammad-sammy.csharp

@@ -63,15 +63,28 @@ Collect their answers as-is, no judgement, no corrections; Repeat answers out lo
 
 visuals?
 
--   Motivation
--   Mindset and Values - Kindness, Consideration, Respect
--   Strong-style
+-   Background, discovered, patterns
+-   Woody Zuill quote, book
+-   Motivation - why would we work this way?
+-   Mindset and Values - Kindness, Consideration, Respect, help each other
+-   Strong-style, typing, talking
 -   Strict style
 -   Yes and...
 -   Rotations and Timer
 
-## Concrete - Call-outs
+## Concrete
 
-## Concrete - Intentions Questions
+Introduce the following, one(?) rotation at a time:
+
+1. Call-outs
+   Typist: "I'm John 🎙, and I'm typing."
+   Talker: "I'm Paul, and I'm talking."
+   Next: "I'm George 🎸, and I'm next."
+
+2. Typist: "I'm listening"
+   Talker: "My intention is..."
+
+3. Typist: English First
+   Talker: "Yes and..."
 
 ## Conclusions
