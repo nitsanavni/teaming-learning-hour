@@ -55,53 +55,68 @@ namespace Tennis.Tests
         [ClassData(typeof(TestDataGenerator))]
         public void Tennis1Test(int p1, int p2, string expected)
         {
-            var game = new GameDriver((p1, p2) => new TennisGame1(p1, p2));
+            var game = GameDriver.ForTennis1();
 
-            Assert.Equal(expected, game.GetScore(p1, p2));
+            game.WonPoints(p1, p2);
+
+            Assert.Equal(expected, game.GetScore());
         }
 
         [Theory]
         [ClassData(typeof(TestDataGenerator))]
         public void Tennis2Test(int p1, int p2, string expected)
         {
-            var game = new GameDriver((p1, p2) => new TennisGame2(p1, p2));
+            var game = GameDriver.ForTennis2();
 
-            Assert.Equal(expected, game.GetScore(p1, p2));
+            game.WonPoints(p1, p2);
+
+            Assert.Equal(expected, game.GetScore());
         }
 
         [Theory]
         [ClassData(typeof(TestDataGenerator))]
         public void Tennis3Test(int p1, int p2, string expected)
         {
-            var game = new GameDriver((p1, p2) => new TennisGame3(p1, p2));
+            var game = GameDriver.ForTennis3();
 
-            Assert.Equal(expected, game.GetScore(p1, p2));
+            game.WonPoints(p1, p2);
+
+            Assert.Equal(expected, game.GetScore());
         }
 
         private class GameDriver
         {
             private readonly ITennisGame game;
+
+            public static GameDriver ForTennis1()
+            {
+                return new GameDriver((a, b) => new TennisGame1(a, b));
+            }
+
+            public static GameDriver ForTennis2()
+            {
+                return new GameDriver((a, b) => new TennisGame2(a, b));
+            }
+
+            public static GameDriver ForTennis3()
+            {
+                return new GameDriver((a, b) => new TennisGame3(a, b));
+            }
+
             public GameDriver(Func<string, string, ITennisGame> makeGame)
             {
                 game = makeGame("player1", "player2");
             }
 
-            public string GetScore(int player1points, int player2Points)
+            public string GetScore()
             {
-                WinPlayersPoints(player1points, player2Points);
-
                 return game.GetScore();
             }
 
-            private void WinPlayersPoints(int player1points, int player2Points)
+            public void WonPoints(int player1Points, int player2Points)
             {
-                WinPoints(player1points, "player1");
-                WinPoints(player2Points, "player2");
-            }
-
-            private void WinPoints(int points, string name)
-            {
-                Repeat(times: points, action: () => game.WonPoint(name));
+                Repeat(times: player1Points, action: () => game.WonPoint("player1"));
+                Repeat(times: player2Points, action: () => game.WonPoint("player2"));
             }
 
             private void Repeat(int times, Action action)
