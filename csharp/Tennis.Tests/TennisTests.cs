@@ -108,10 +108,7 @@ namespace Tennis.Tests
                 game = makeGame("player1", "player2");
             }
 
-            public string GetScore()
-            {
-                return game.GetScore();
-            }
+            public string GetScore() => game.GetScore();
 
             public void WonPoints(int player1Points, int player2Points)
             {

@@ -22,35 +22,41 @@ For remote settings:
 
 ## Structure / Agenda
 
--   Connect
-    -   Setting the Stage
-    -   Great Teamwork
--   Concept
--   Concrete
--   Conclusions - impressions
+-   Setting the Stage - 1m (1m)
+-   Connect - 5m (6m)
+    -   Great Teamwork - 5m
+-   Concept - 10m (16m)
+    -   All the Brilliant minds - 2m
+    -   Why would we work this way? - 3m
+    -   Strong style + rotations
+-   Concrete - Rules and Patterns - 36m (52m)
+    -   Call-outs - 4m
+    -   Listen / Intention - 16m
+    -   English First / Yes and... - 16m
+-   Conclusions - 8m - impressions (60m)
 
-## Connect
+## Connect - 6m
 
-### Setting the Stage
+### Setting the Stage - 1m
 
 Invite the team to actively participate in the Learning Hour.
 
 Example:
 
-During this Learning Hour, and throughout the rest of the coaching everybody's invited / feel free to
+During this Learning Hour, and throughout the rest of the coaching everybody's invited to
 
 -   get involved
 -   ask questions
 -   have fun
 -   speak your mind
 
-### Great Teamwork
+### Great Teamwork - 5m
 
 Ask the team -
 
 > What things help in achieving **great teamwork**?
 
-Collect their answers as-is, no judgement, no corrections; Repeat answers out loud, and write them down.
+Collect their answers as-is, no judgement, no corrections; Repeat answers out loud, and note them down for the whole team to see.
 
 -   Follow-up Qs
     -   Can you elaborate?
@@ -59,32 +65,48 @@ Collect their answers as-is, no judgement, no corrections; Repeat answers out lo
 
 ## Concept
 
-### Explain
+### All the Brilliant Minds
 
-visuals?
+Mob Programming, Ensemble Programming, Software Teaming
 
--   Background, discovered, patterns
--   Woody Zuill quote, book
--   Motivation - why would we work this way?
--   Mindset and Values - Kindness, Consideration, Respect, help each other
--   Strong-style, typing, talking
--   Strict style
--   Yes and...
--   Rotations and Timer
+> "All the brilliant minds working together on the same thing, at the same time, in the same space, and at the same computer"
+>
+> Woody Zuill
 
-## Concrete
+A highly collaborative approach to working on software.
+
+### Why would we work this way?
+
+Ask the team -
+
+> Why would we work this way?
+
+### Mindset
+
+Learn from each other
+Help each other
+Treat each other with kindness, consideration, respect
+
+### Strong-style
+
+Two main roles - Typing, Talking
+
+## Concrete - 30m
 
 Introduce the following, one(?) rotation at a time:
 
-1. Call-outs
+1. Call-outs - 4m
    Typist: "I'm John 🎙, and I'm typing."
    Talker: "I'm Paul, and I'm talking."
    Next: "I'm George 🎸, and I'm next."
+   Explain and demo - 2m
+   Rotation - 2m
 
-2. Typist: "I'm listening"
+2. explain 4m + (2m rotation x 6) = 16m
+   Typist: "I'm listening"
    Talker: "My intention is..."
 
 3. Typist: English First
    Talker: "Yes and..."
 
-## Conclusions
+## Conclusions - 7m
