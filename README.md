@@ -8,6 +8,4 @@ What's a [Learning Hour](https://sammancoaching.org/learning_hours/index.html)?
 
 ## Materials
 
-Learners - start here
-
-Facilitators - look here
+Facilitators - [look here](./description.md)
