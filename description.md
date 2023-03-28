@@ -41,7 +41,7 @@ For remote settings:
 -   Conclusions - 8m (60m)
     -   Learnings about Software Teaming
 
-## Setting the Stage - 1m
+## Setting the Stage
 
 Invite the team to actively participate in the Learning Hour.
 
@@ -49,9 +49,9 @@ Example:
 
 > These Learning Hours and coaching sessions work best when you actively participate, so I invite you to get involved, ask questions, have fun, speak your mind.
 
-## Connect - 5m
+## Connect
 
-### Great Teamwork - 5m
+### Great Teamwork
 
 Ask the team -
 
@@ -197,7 +197,7 @@ Typist adds this comment in the code:
 // TODO - add a test for MaximumValue
 ```
 
-## Conclusions - 7m
+## Conclusions
 
 ### Learnings about Software Teaming
 
