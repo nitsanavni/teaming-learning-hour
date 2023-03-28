@@ -3,7 +3,7 @@
 ## Context / Audience
 
 -   At least two people, three is better
--   We assume no experience at all with Ensemble Programming or Pair Programming
+-   We assume no experience at all with Software Teaming or Pair Programming
 -   Minimal software development experience
 
 ## Learning Goals
@@ -69,7 +69,7 @@ Follow-up Qs
 
 ### What is Software Teaming?
 
-**Explain** the following concepts, using some frames / slides.
+**Explain** the following concepts, using frames or slides.
 
 #### AKA
 
